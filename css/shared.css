@@ -1,0 +1,100 @@
+*,*::after,*::before{
+  box-sizing: border-box;
+}
+html,body{
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow-x:hidden;
+  /* height: 100%; */
+  color: #ddd;
+}
+a {
+  text-decoration: none;
+  /* color: white; */
+  color: #ddd;
+}
+li {
+  list-style:none;
+}
+
+.header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333;
+  /* position: fixed;
+  top: 0;
+  left: 0; */
+  width: 100vw;
+}
+.brand h2{
+     margin: 10px;
+}
+.main-navbar{
+  display: flex;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-list{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+.navbar-list-link:hover{
+  color: #f7c08a;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #f7c08a;
+}
+.active{
+  color: #f7c08a;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #f7c08a;
+}
+.third-section{
+  display: flex;
+
+  height: 250px;
+}
+.icon-div-1,.icon-div-2,.icon-div-3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  width: 33.4%;
+  background-color: #ddd;
+}
+.icon-div-2{
+  background-color: #f7c08a;
+}
+.icon-div-1 h4, .icon-div-2 h4, .icon-div-3 h4{
+  font-size: 22px;
+  margin: 22px 0;
+}
+.icon-div-1 p,.icon-div-2 p,.icon-div-3 p{
+  font-size: 15px;
+  text-align: center;
+  margin: 10px 0;
+  padding:  0 32px;
+}
+.fa {
+  font-size: 32px;
+}
+.main-footer{
+  background-color: #333;
+  margin: 0;
+  width: 100%;
+  opacity: 0.95;
+}
+.main-footer p{
+  margin: 0;
+  text-align: center;
+  color: white;
+  padding: 32px;
+  
+}
