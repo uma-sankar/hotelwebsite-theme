@@ -91,5 +91,22 @@ h4 span{
 .section-2 a:hover{
   background-color: #f7c08a;
 }
+@media (max-width:400px){
+  .bg-image{
+    height: 80vh;
+  } 
+  .bg-image h1{
+       font-size: 2rem;
+   }
+   .bg-image p{
+     text-align: center;
+   }
+   .section-1{
+     display: none;
+   }
+   .section-2{
+     width: 100%;
+   }
+}
 
 

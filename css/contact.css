@@ -1,62 +1,69 @@
-.container{
+.container {
   width: 900px;
   margin: auto;
 }
-.detailsForm{
+.detailsForm {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #333;
 }
-.details{
+.details {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
-.details h1{
+.details h1 {
   color: #333;
   font-size: 36px;
   margin: 12px 0;
 }
-h1 span{
+h1 span {
   color: #f7c08a;
 }
-.details p{
+.details p {
   font-size: 16px;
 }
-label{
+label {
   margin: 8px 0;
 }
 
-input{
+input {
   height: 35px;
   border: 1px solid #ddd;
   margin: 8px 0;
 }
-textarea{
+textarea {
   border: 1px solid #ddd;
   margin-top: 8px;
   margin-bottom: 16px;
 }
-button{
+button {
   width: 100px;
   height: 50px;
   font-size: 18px;
-  background-color: #333 ;
+  background-color: #333;
   border: none;
   color: white;
   margin: 16px 0;
   cursor: pointer;
 }
-button:hover{
+button:hover {
   background-color: #f7c08a;
   color: #333;
 }
-button:focus{
+button:focus {
   outline: none;
 }
-.icon-div-1, .icon-div-2,.icon-div-3{
+.icon-div-1,
+.icon-div-2,
+.icon-div-3 {
   background-color: #333;
   color: white;
+}
+@media (max-width: 400px) {
+  .main-footer-contact {
+    margin-top: 230px;
+  }
 }

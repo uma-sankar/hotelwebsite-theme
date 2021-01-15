@@ -98,3 +98,34 @@ li {
   padding: 32px;
   
 }
+
+@media (max-width :400px){
+  .header{
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: #333;
+  
+    width: 100vw;
+  }
+  .main-navbar{
+    width: 100%;
+  }
+  .navbar-list{
+   flex-direction: column;
+    height: 100px;
+    align-items: center;
+    /* justify-content: space-around; */
+    /* padding: 20px; */
+    margin: 10px;
+  }
+  .third-section{
+    flex-direction: column;
+    
+  }
+  .icon-div-1,.icon-div-2,.icon-div-3{
+    width: 100%;
+    padding: 10px 0px;
+  }
+
+}
