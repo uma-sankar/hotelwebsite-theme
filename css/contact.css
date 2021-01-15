@@ -62,7 +62,7 @@ button:focus {
   background-color: #333;
   color: white;
 }
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .main-footer-contact {
     margin-top: 230px;
   }

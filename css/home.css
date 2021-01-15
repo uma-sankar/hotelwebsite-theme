@@ -91,7 +91,7 @@ h4 span{
 .section-2 a:hover{
   background-color: #f7c08a;
 }
-@media (max-width:400px){
+@media (max-width:450px){
   .bg-image{
     height: 80vh;
   } 

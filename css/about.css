@@ -80,7 +80,7 @@ h1 span{
   font-size: 14px;
 }
 
-@media (max-width:400px){
+@media (max-width:450px){
   .info-section{
     flex-direction: column;
   }
